@@ -1,4 +1,15 @@
-import clases.*
+package com.example.comppanionclass
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import  Clases.*
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
 
 fun main() {
 	val scaryMovie = Movie(name: "Scary movie", gender: "Comedia", duration:66.77)
